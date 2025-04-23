@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Biodata</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mt-5 p-5 border">
+      <h2 class="text-center mb-10">Input Biodata</h2>
+      <form>
+        <div class="form-group row">
+          <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+          <div class="col-form-label">:</div>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="nama" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="tanggalLahir" class="col-sm-2 col-form-label">Tanggal Lahir</label>
+          <div class="col-form-label">:</div>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="tanggalLahir" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="jenisKelamin" class="col-sm-2 col-form-label">Jenis Kelamin</label>
+          <div class="col-form-label">:</div>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="jenisKelamin" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
+          <div class="col-form-label">:</div>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="alamat" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="agama" class="col-sm-2 col-form-label">Agama</label>
+          <div class="col-form-label">:</div>
+          <div class="col-sm-9">
+            <select class="form-control" id="agama">
+              <option></option>
+              <option>Islam</option>
+              <option>Kristen</option>
+              <option>Katolik</option>
+              <option>Hindu</option>
+              <option>Buddha</option>
+              <option>Konghucu</option>
+            </select>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary mr-5">Send</button>
+          <button type="reset" class="btn btn-secondary">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
