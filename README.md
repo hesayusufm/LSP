@@ -16,4 +16,4 @@ Aplikasi sederhana berbasis PHP untuk mencatat tugas harian
 2. Jalankan XAMPP dan buka di 'http://localhost/todo_list.php'
 
 ## Kontributor
--[Hesa Yusuf Meyvandino](https://github.com/hesayusufm/LSP)
+-[Hesa Yusuf Meyvandino] (https://github.com/hesayusufm/LSP)
